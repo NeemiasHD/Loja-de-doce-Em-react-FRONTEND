@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+    position: fixed;
+    transition: all .5s;
+
+}
+
+.navbar a {
+    color: white;
+    background-color: red;
+    width: 20;
+    height: 25px;
+    width: 0;
+    transition: none;
+
+}
+
+i {
+    font-size: 35px;
+}
+
+.navbar img {
+    width: 100px;
+    margin-left: 575px;
+
+
+}
+
+.bx.bx-menu {
+    display: flex;
+    justify-content: center;
+    margin-right: 575px;
+    color: var(--CorBranca);
+    transition: all .5s;
+
+}
+
+.SubMenu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.452);
+    transition: all .3s;
+    background-color: var(--CorBranca);
+    border-radius: 0;
+    z-index: 50;
+    margin-right: 160px;
+
+    right: 0;
+
+    width: 250px;
+    padding-top: 50px;
+}
+
+.itemSubMenu {
+    color: rgb(0, 0, 0);
+    width: 200px;
+    font-size: 17px;
+    height: 50px;
+    background-color: transparent;
+
+
+}
+
+.itemSubMenu:hover {
+    color: var(--CorPrincipalRosa);
+}
+
+@media (min-width: 1500px) {
+
+    .navbar {
+        justify-content: center;
+
+
+    }
+
+    .navbar img {
+        margin-right: 500px;
+        margin-left: 0;
+
+
+
+    }
+
+    .bx.bx-menu {
+        margin-right: 0;
+        margin-left: 500px;
+
+    }
+
+    .SubMenu {
+        left: 50%;
+        margin-left: 275px;
+
+
+    }
+
+}

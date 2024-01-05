@@ -1,0 +1,116 @@
+.HomeMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ListagemProdutos {
+    margin-top: 20px;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*Produto*/
+
+
+
+
+.Informacoes {
+
+    color: var(--CorEscura);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloProduto {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 900;
+    align-self: baseline;
+    width: 100%;
+
+}
+
+.precoProduto {
+    font-size: 25px;
+    font-weight: 900;
+    align-self: baseline;
+    width: 100%;
+
+}
+.descricaoProduto {
+    font-size: 12px;
+    font-weight: 900;
+    align-self: baseline;
+    width: 100%;
+    height: 40px;
+
+}
+
+
+.BtnProdutoCliente {
+    position: relative;
+    top: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnProdutoCliente a {
+    padding: 0;
+    margin: 0;
+
+
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.bx.bx-cart-download {
+    font-size: 25px;
+}
+
+.InfoProduto {
+    background-color: var(--CorEscura);
+}
+
+
+/*Ordenador*/
+
+.MensagemDeProdutoNaoEncontrado{
+    margin-top: 200px;
+    height: 500px;
+    display: flex;
+    font-size: 20px;
+}
+
+
+.Carregamento{
+    height: 400px;
+    gap: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Carregamento p{
+    color: white;
+
+}
+.Carregamento span{
+    z-index: -1;
+
+}

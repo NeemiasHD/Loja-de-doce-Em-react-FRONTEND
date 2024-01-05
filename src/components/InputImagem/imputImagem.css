@@ -1,0 +1,24 @@
+.ImagemPreview {
+    filter: blur(2px);
+    z-index: 1;
+    transition: all .5s;
+
+}
+
+.ImagemPreview img {
+    width: 280px;
+
+}
+.bx.bx-image-add{
+    z-index: 50;
+    position: absolute;
+}
+.ImagemInput{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}

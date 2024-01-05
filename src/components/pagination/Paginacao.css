@@ -1,0 +1,11 @@
+.btnPaginacao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+.btnPaginacao a{
+    width: 30px;
+    height: 30px;
+    border-radius: 0px;
+}

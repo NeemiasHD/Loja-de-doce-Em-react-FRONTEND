@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
+}
+body{
+  background-color: var(--CorDePele);
+  height: 100%;
+}
+ul{
+  list-style: none;
+}
+
+:root {
+  --CorPrincipalRosaSelect: #fd6d7e;
+  --CorPrincipalRosa: #CE5A67;
+  --CorBranca: #FCF5ED;
+  --CorEscuraSelect: #4b3838;
+  --CorEscura: #1F1717;
+  --CorDePele: #F4BF96;
+  --botaoDuplicar: rgb(0, 177, 168);
+  --Cinza: rgba(103, 103, 103, 0.323);
+}
+a {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 50px;
+  border: none;
+  background-color: var(--CorPrincipalRosa);
+  border-radius: 10px;
+  font-size: 20px;
+  color: var(--CorBranca);
+  cursor: pointer;
+  transition: all .5s;
+
+}
+
+
+/*Loader*/
+
+.loader {
+  position: relative;
+  margin-top: 200px;
+  color: var(--CorBranca);
+  font-size: 15px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin .9s infinite linear;
+  transform: translateZ(0);
+  display: flex;
+}
+::-webkit-scrollbar{
+  width: 15px;
+  background-color: var(--CorEscura);
+
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--CorBranca);
+  
+
+}
+
+
+
+@keyframes mulShdSpin {
+
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em,
+      2em -2em 0 0em, 3em 0 0 -1em,
+      2em 2em 0 -1em, 0 3em 0 -1em,
+      -2em 2em 0 -1em, -3em 0 0 -1em,
+      -2em -2em 0 0;
+  }
+
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em,
+      3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em,
+      -2em 2em 0 -1em, -3em 0 0 -1em,
+      -2em -2em 0 -1em;
+  }
+
+  25% {
+    box-shadow: 0 -3em 0 -0.5em,
+      2em -2em 0 0, 3em 0 0 0.2em,
+      2em 2em 0 0, 0 3em 0 -1em,
+      -2em 2em 0 -1em, -3em 0 0 -1em,
+      -2em -2em 0 -1em;
+  }
+
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+      3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em,
+      -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+      3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em,
+      -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+      3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0,
+      -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em,
+      3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em,
+      -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em,
+      3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em,
+      -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}

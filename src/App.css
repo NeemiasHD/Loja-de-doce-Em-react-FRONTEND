@@ -1,0 +1,34 @@
+.App {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.DoceriaInicio {
+    position: relative;
+    width: 100%;
+
+}
+
+@media (min-width: 1500px) {
+
+    .DoceriaInicio {
+        width: 1400px;
+
+    }
+
+    .navbar a {
+        color: white;
+        background-color: red;
+        height: 25px;
+        margin-left: 150px;
+        margin-right: 150px;
+
+    }
+
+}

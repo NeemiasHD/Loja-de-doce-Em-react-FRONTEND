@@ -1,0 +1,147 @@
+.ordenador {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.ordenador a {
+    background-color: transparent;
+    width: 150px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--CorPrincipalRosa);
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+}
+
+.ordenador a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.ordenador li:hover .subCategorias {
+    opacity: 1;
+    pointer-events: all;
+    flex-direction: column;
+
+
+
+}
+
+
+li {
+    list-style: none;
+}
+
+.subCategorias {
+    position: absolute;
+    background-color: var(--CorEscura);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s;
+
+}
+
+.subCategorias a {
+
+
+    background-color: var(--CorEscura);
+    border-radius: 0;
+}
+
+.subCategorias a:hover {
+
+    color: var(--CorPrincipalRosa);
+}
+
+
+#botaoAZ {
+    transition: all .5s;
+    
+}
+#botaoAZ:hover{
+    background-color: var(--CorPrincipalRosa);
+}
+.ordenador .listCategoriaC,
+.ordenador .listCategoriaP {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ordenador .listCategoriaC:hover,
+.ordenador .listCategoriaP:hover {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+
+}
+
+.ordenador li:hover #listCategoriaC,
+.ordenador li:hover #listCategoriaP {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.ordenador .listCategoriaC i {
+    font-size: 20px;
+
+}
+
+
+/*Barra de Pesquisa*/
+
+.BarraDePesquisa {
+
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 50px;
+
+}
+
+.BarraDePesquisa:focus {
+    outline: none;
+}
+
+.InputPesquisaGroup {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 40px;
+    background-color: var(--CorBranca);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.InputPesquisaGroup i {
+    color: rgb(168, 168, 168);
+    font-size: 35px;
+
+}
+
+.bx.bx-search-alt{
+    cursor: pointer;
+    transition: all .3s;
+
+}
+.bx.bx-search-alt:hover {
+    color: var(--CorEscuraSelect);
+
+}

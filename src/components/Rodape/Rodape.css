@@ -1,0 +1,18 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--CorEscura);
+    gap: 50px;
+}
+footer p{
+    margin-top: 50px;
+    color: white;
+}
+iframe{
+    margin-bottom: 50px;
+}

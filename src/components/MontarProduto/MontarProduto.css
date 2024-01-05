@@ -1,0 +1,193 @@
+.produto {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 25px;
+    height: 400px;
+    width: 250px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.247);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.BtnProduto {
+    position: relative;
+    top: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.BtnProduto a {
+    padding: 0;
+    margin: 0;
+
+
+    width: 50px;
+    height: 30px;
+}
+
+.BtnProduto i {
+    font-size: 25px;
+}
+
+.LixoBtn {
+    background-color: red;
+}
+
+.LixoBtn:active {
+    background-color: rgb(139, 39, 39);
+}
+
+.EditarBtn {
+    background-color: gray;
+}
+
+.EditarBtn:active {
+    background-color: rgb(56, 56, 56);
+}
+
+.SalvarBtn {
+    background-color: rgb(0, 190, 0);
+}
+
+.SalvarBtn:active {
+    background-color: rgb(0, 112, 0);
+}
+
+
+
+
+.CategoriaDoProdutoInput {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border: none;
+    display: flex;
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+    background-color: var(--Cinza);
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.CategoriaDoProdutoInput:focus {
+    outline: none;
+}
+
+.img {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.img img {
+    width: 100%;
+
+}
+
+
+
+
+/*Confirmação de Exclusão*/
+.TodasInformacoesDoProduto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ConfirmacaoDeExclusaoDeProduto {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.ConfirmacaoDeExclusaoDeProduto h1 {
+    font-size: 20px;
+}
+
+.SimOuNaoBtn {
+    display: flex;
+    gap: 10px;
+}
+
+.SimOuNaoBtn a {
+    width: 60px;
+}
+
+
+.ExcluirSimBTN {
+    background-color: rgb(0, 163, 27);
+}
+
+.ExcluirNaoBTN {
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+/**/
+.ProdutosECriarProduto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Informacoes {
+    display: flex;
+    gap: 1px;
+}
+
+
+
+.TodasInformacoesDoProduto.add {
+    opacity: 0;
+    transition: all .5s;
+    pointer-events: none;
+}
+
+.AdicionarProdutoBTN {
+    position: absolute;
+    transition: .5s;
+
+}
+
+.AdicionarProdutoBTN i {
+    cursor: pointer;
+
+    font-size: 200px;
+    color: var(--Cinza);
+    transition: all .5s;
+
+}
+
+.AdicionarProdutoBTN i:hover {
+    transform: scale(1.1);
+
+
+}
+.Limpar{
+    background-color: var(--CorEscura);
+}
+.VoltarBtn{
+    background-color: red;
+}
+.SimboloReal{
+    font-size: 25px;
+}
